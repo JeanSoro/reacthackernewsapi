@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import {StoriesContainer} from './containers/StoriesContainer';
 
 
-const App = () => (
-  <h1>Hello</h1>
-)
+const App = () => {
+
+
+  return (
+    <StoriesContainer/>
+  )
+}
 
 
 export default App; 
